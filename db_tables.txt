@@ -1,0 +1,29 @@
+database mobile_recharge
+
+tables
+
+--user_tbl
+  -id
+  -name  
+  -email
+  -pass
+  -mobile_number
+  -address
+
+--balance_tbl
+  -b_id
+  -date
+  -amount
+  -user_email
+
+--recharge_tbl
+  -id
+  -recharge_amount
+  -sim_owner(mobitel, airtel...)
+  -date
+  -card_number
+  
+__________________________________________
+__________________________________________
+
+
